@@ -1,1 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Final Copy Cat Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    
+<!-- ************************** -->
+<!-- Couldn't figure out how to get the navbar overlayed to the background image or for either cover the width of the screen-->
+<!-- ************************** -->
 
+    <nav class="navbar navbar-dark sticky-top navbar-expand-lg bg-transparent" id="header">        
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><span><img src="/assets/210x135-lg.jpeg" alt="Nav Icon" width="30" height="30"></span>BUNGiE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" href="#">DESTINY 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SEASONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COMMUNITY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HELP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">STORE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">REWARDS</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <button class="btn btn-outline-success" type="submit">Search</button>                            
+            </form>
+            <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      My Account
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sign In</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">XBOX</a></li>                      
+                      <li><a class="dropdown-item" href="#">PLAYSTATION</a></li>
+                      <li><a class="dropdown-item" href="#">STEAM</a></li>
+                    </ul>
+                  </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- ************************** -->
+<!-- Header Image -->
+<!-- I couldn't figure out how to manipulate the text size yet-->
+<!-- ************************** -->
+
+      <div class="container-fluid" id="hero">
+        <img src="/assets/header-bg.jpeg" class="img-fluid" alt="header background image">
+        <h2>
+            <p>
+                DESTINY 2
+            </p>
+            <p>
+                theWITCHQUEEN
+            </p>
+            <a class="btn btn-warning" type="button">AVAIL NOW</a>                            
+        </h2>
+      </div>
+
+      <!-- ************************** -->
+      <!-- Set class container on div for On Sale Now Section -->
+      <!-- ************************** -->
+
+      <div class="container">
+        <h3 class="display-8 ">FEATURED</h3>
+  
+        <!-- ************************** -->
+        <!-- Begin row of cards -->
+        <!-- Cant' get the images to fill out the entire card-->
+        <!-- ************************** -->
+        <div class="row align-items-stretch">
+  
+          <!-- ************************** -->
+          <!-- First card -->
+          <!-- ************************** -->
+  
+          <div class="card col text-bg-dark">
+            <img src="/assets/first-card.jpeg" class="card-img-top" alt="oak">
+            <div class="card-img-overlay">
+              <p class="card-text">SOLSTICE 2022</p>
+            </div>
+          </div>
+  
+          <!-- ************************** -->
+          <!-- Second card -->
+          <!-- ************************** -->
+  
+          <div class="card col text-bg-dark">
+            <img src="/assets/second-card.jpeg" class="card-img-top" alt="maple">
+            <div class="card-img-overlay">
+              <p class="card-text">SEASON OF THE HUNTER</p>                           
+            </div>
+          </div>
+  
+          <!-- ************************** -->
+          <!-- Third card -->
+          <!-- ************************** -->
+  
+          <div class="card col text-bg-dark">
+            <img src="/assets/third-card.jpg" class="card-img-top" alt="willow">
+            <div class="card-img-overlay">              
+              <p class="card-text">30TH ANNIVERSARY</p>              
+            </div>
+          </div>  
+        </div>
+
+<!-- ************************** -->
+      <!-- Set class container on div for On Sale Now Section -->
+      <!-- ************************** -->
+
+      <div class="container">
+        <h3 class="display-8 ">FEATURED</h3>
+  
+        <!-- ************************** -->
+        <!-- Begin row of cards -->
+        <!-- Cant' get the images to fill out the entire card-->
+        <!-- ************************** -->
+        <div class="row row-cols-3">
+  
+          <!-- ************************** -->
+          <!-- First card -->
+          <!-- ************************** -->
+  
+          <div class="card mb-3 w-100 text-bg-dark">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/first-latest.jpeg" class="img-fluid rounded-start" alt="first image latest">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                    <p class="card-text"><small>BE A PART OF IT</small></p>                   
+                    <h3 class="card-title">COMMUNITY FOCUS: PIJINNN</h3>                  
+                </div>
+              </div>
+            </div>
+  
+          <!-- ************************** -->
+          <!-- Second card -->
+          <!-- ************************** -->
+  
+          <div class="card mb-3 w-100 text-bg-dark">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/second-latest.jpeg" class="img-fluid rounded-start" alt="second image latest">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                    <p class="card-text"><small>THE ONE WHERE WE CORDIALLY INVITE YOU... -7/21/2022</small></p>                   
+                    <h3 class="card-title">THIS WEEK AT BUNGIE</h3>                  
+                </div>
+              </div>
+            </div>
+  
+          <!-- ************************** -->
+          <!-- Third card -->
+          <!-- ************************** -->
+  
+          <div class="card mb-3 w-100 text-bg-dark">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/third-latest.jpeg" class="img-fluid rounded-start" alt="third image latest">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                    <p class="card-text"><small>THE ONE WHERE INFECTIOUS MELODIES... -7/19/2022</small></p>                   
+                    <h3 class="card-title">DESTINY 2 UPDATE</h3>                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+</body>
+</html>
